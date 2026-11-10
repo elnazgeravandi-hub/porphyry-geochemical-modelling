@@ -1,0 +1,40 @@
+# Private inputs and generated outputs
+private_data/
+data/
+results/
+outputs/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.shp
+*.shx
+*.dbf
+*.prj
+*.gpkg
+*.geojson
+*.gpkg-wal
+*.gpkg-shm
+*.tif
+*.tiff
+*.npz
+*.npy
+*.ipynb
+*.png
+*.jpg
+*.pdf
+
+# Python and local environment
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Local credentials
+.env
+.env.*
+*.key
+*.pem
